@@ -30,17 +30,17 @@ classifiers = [
     'Topic :: Scientific/Engineering :: Information Analysis',
 ]
 
-dependencies = [
-    "ipython >=3.2.3",
-    "matplotlib >=1.4.0",
-    "numpy >=1.11.1",
-    "pandas >=1.3",
-    "pytz >=2014.10",
-    "scipy >=0.14.0",
-    "scikit-learn >=0.16.1",
-    "seaborn >=0.7.1",
-    "empyrical-reloaded >=0.5.9",
-]
+[tool.poetry.dependencies]
+ipython = ">=8.32.0"
+matplotlib >=1.4.0",
+numpy >=1.11.1",
+pandas >=1.3",
+pytz >=2014.10",
+scipy >=0.14.0",
+scikit-learn >=0.16.1",
+seaborn >=0.7.1",
+empyrical-reloaded = {git = "https://github.com/ClaudioMeinberg/empyrical-reloaded"}
+
 
 [project.urls]
 homepage = 'https://ml4trading.io'
